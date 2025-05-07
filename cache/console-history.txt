@@ -1,0 +1,5 @@
+const asset = await assetManager.assets(0);
+await assetManager.registerAsset("Lampadina", "Ufficio");
+const assetManager = await AssetManager.attach("0x5FbDB2315678afecb367f032d93F642f64180aa3");
+const AssetManager = await ethers.getContractFactory("AssetManager");
+const AssetManager = await ethers.getContractFactory("AssetManager")
